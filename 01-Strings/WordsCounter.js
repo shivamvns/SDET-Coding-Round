@@ -6,7 +6,7 @@ function wordCounter(str) {
     }
     return str.trim().split(/\s+/).length;
 }
-console.log(wordCounter("Hello World How Are You"));
+console.log(wordCounter("Hello HI World How Are You"));
 // Output: 5
 console.log(wordCounter("   "));
 // Output: 0
